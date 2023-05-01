@@ -13,6 +13,10 @@ Create a virtual environment and activate it.
 
 ```source translator/bin/activate```
 
+## Settings.py
+Add your django secret kry from settimgs to .env file in the parameter , as-
+SECRET_KEY = "..secret key.."
+
 Install the required packages.
 To install the required dependencies, run the following command in your terminal:
 
