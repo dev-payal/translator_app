@@ -4,20 +4,24 @@ This project is a simple translation API that uses Google Translate API to trans
 
 ## Setup
 Clone the repository to your local machine.
-git clone https://github.com/your-username/translator-api.git
+
+```git clone https://github.com/your-username/translator-api.git```
 
 Create a virtual environment and activate it.
-python -m venv translator
-source translator/bin/activate
+
+```python -m venv translator```
+
+```source translator/bin/activate```
 
 Install the required packages.
 To install the required dependencies, run the following command in your terminal:
 
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 
 ## Usage
 To start the server, run the following command:
-python manage.py runserver
+
+```python manage.py runserver```
 
 By default, the server will run at http://localhost:8000. You can then make requests to the API using the following endpoints:
 POST /translate/
@@ -40,7 +44,8 @@ target_lang (required): The language to translate the text into.
 
 ## Testing
 To run the test cases, run the following command:
-python manage.py test myapp.tests
+
+```python manage.py test myapp.tests```
 
 ## Caching
 If the requested data is already translated once via the API, it will be cached or stored in a database. If a user requests already translated data, it will be served from the cache or database.
